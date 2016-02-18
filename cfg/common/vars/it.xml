@@ -251,37 +251,65 @@ See the accompanying license.txt file for applicable licenses.
          in chm/html, when referenced element has no title. -->
     <variable id="This link">questo collegamento</variable>
 
-    <!-- Image path to use for a note of "note" type. -->
-    <variable id="note Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-    <!-- Image path to use for a note of "notice" type. -->
-    <variable id="notice Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-    <!-- Image path to use for a note of "attention" type. -->
-    <variable id="attention Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
-
-    <!-- Image path to use for a note of "caution" type. -->
-    <variable id="caution Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
-
-    <!-- Image path to use for a note of "danger" type. -->
-    <variable id="danger Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
-    <!-- Image path to use for a note of "warning" type. -->
-    <variable id="warning Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
-    <!-- Image path to use for a note of "fastpath" type. -->
-    <variable id="fastpath Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-
-    <!-- Image path to use for a note of "important" type. -->
-    <variable id="important Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-
-    <!-- Image path to use for a note of "remember" type. -->
-    <variable id="remember Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-
-    <!-- Image path to use for a note of "restriction" type. -->
-    <variable id="restriction Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-
-    <!-- Image path to use for a note of "tip" type. -->
-    <variable id="tip Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
-
-    <!-- Image path to use for a note of "other" type. -->
-    <variable id="other Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+     <!-- Image path to use for a note of "note" type. -->
+     <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
+     <!-- Image path to use for a note of "notice" type. -->
+     <variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
+     <!-- Image path to use for a note of "attention" type. -->
+     <variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/important.png</variable>
+     
+     <!-- Image path to use for a note of "caution" type. -->
+     <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.png</variable>
+     
+     <!-- Image path to use for a note of "danger" type. -->
+     <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/danger.png</variable>
+     <!-- Image path to use for a note of "warning" type. -->
+     <variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.png</variable>
+     <!-- Image path to use for a note of "fastpath" type. -->
+     <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/nav_right16.png</variable>
+     
+     <!-- Image path to use for a note of "important" type. -->
+     <variable id="important Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
+     
+     <!-- Image path to use for a note of "remember" type. -->
+     <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/remember.png</variable>
+     
+     <!-- Image path to use for a note of "restriction" type. -->
+     <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/restriction.png</variable>
+     
+     <!-- Image path to use for a note of "tip" type. -->
+     <variable id="tip Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
+     
+     <!-- Image path to use for a note of "other" type. -->
+     <variable id="other Note Image Path">Customization/OpenTopic/common/artwork/nav_right16.png</variable>
+     
+     <!--
+        String used for links in end of document in XHTML (SNo: auch für PDF Ausgabe relvant)
+    -->
+     
+     <!-- The title of the links to parent -->
+     <variable id="Parent topic">Parent Topic</variable>
+     
+     <!-- The title of the links to next topics -->
+     <variable id="Next topic">Next Topic</variable>
+     
+     <!-- The title of the links to previous topics -->
+     <variable id="Previous topic">Previous Topic</variable>
+     
+     <!-- The title of the links to child topics -->
+     <variable id="Child topics">Child Topics</variable>
+     
+     <!-- The title of the links to Related concepts -->
+     <variable id="Related concepts">Related Concepts</variable>
+     
+     <!-- The title of the links to Related tasks -->
+     <variable id="Related tasks">Related Tasks</variable>
+     
+     <!-- The title of the links to Related references -->
+     <variable id="Related references">Related References</variable>
+     
+     <!-- The title of the links to Related information -->
+     <variable id="Related information">Related Information</variable> 
 
     <!--
        Strings used in the online-help publishing.
