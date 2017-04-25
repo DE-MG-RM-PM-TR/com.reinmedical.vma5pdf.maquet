@@ -40,12 +40,13 @@ See the accompanying license.txt file for applicable licenses.
     </xsl:attribute-set>
 
     <xsl:attribute-set name="__frontmatter__title" use-attribute-sets="common.title">
-        <xsl:attribute name="space-before">148mm</xsl:attribute>
+        <xsl:attribute name="space-before">90mm</xsl:attribute>
         <xsl:attribute name="space-before.conditionality">retain</xsl:attribute>
-        <xsl:attribute name="font-size">20pt</xsl:attribute>
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
+        <xsl:attribute name="font-size">27pt</xsl:attribute>
+        <!--<xsl:attribute name="font-weight">bold</xsl:attribute>-->
         <xsl:attribute name="line-height">140%</xsl:attribute>
-        <xsl:attribute name="color">white</xsl:attribute>
+        <xsl:attribute name="margin-left">-6mm</xsl:attribute>
+        <xsl:attribute name="color">black</xsl:attribute>
         <xsl:attribute name="text-align">left</xsl:attribute>
     </xsl:attribute-set>
 
@@ -85,16 +86,17 @@ See the accompanying license.txt file for applicable licenses.
     <!--Rein Medical sets-->
     <xsl:attribute-set name="__rm__revision__date">
         <xsl:attribute name="position">absolute</xsl:attribute>
-        <xsl:attribute name="top">182mm</xsl:attribute>
-        <xsl:attribute name="left">12mm</xsl:attribute> 
-        <xsl:attribute name="color">white</xsl:attribute>
+        <xsl:attribute name="top">134mm</xsl:attribute>
+        <xsl:attribute name="left">6.5mm</xsl:attribute> 
+        <xsl:attribute name="color">black</xsl:attribute>
         <xsl:attribute name="text-align">left</xsl:attribute>
     </xsl:attribute-set>
     
     <xsl:attribute-set name="__rm__frontmatter__language">
         <xsl:attribute name="position">absolute</xsl:attribute>
-        <xsl:attribute name="top">182mm</xsl:attribute>
-        <xsl:attribute name="color">white</xsl:attribute>
+        <xsl:attribute name="top">134mm</xsl:attribute>
+        <xsl:attribute name="left">-5.5mm</xsl:attribute>
+        <xsl:attribute name="color">black</xsl:attribute>
         <xsl:attribute name="text-align">left</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
     </xsl:attribute-set> 
